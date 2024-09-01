@@ -79,7 +79,6 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 3;
 }
 
 .box-wrapper {
@@ -106,13 +105,12 @@ a {
 }
 
 .box img {
-    height: 80px;
+    height: 100px;
     border-radius: 10%;
 }
 
 .quote {
     display: flex;
-    flex: 3;
     background-color: #e5e7eb;
     padding: 20px 0px 0px 20px;
     flex-direction: column;
@@ -129,24 +127,52 @@ a {
 }
 
 #p {
-    margin-left: 50%;
+    margin-left: 70%;
     width: fit-content;
 }
 
 .ad-wrapper {
     display: flex;
-    flex: 2;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 
 .ad-box {
     display: flex;
+    background-color: #3882f6;
+    width: 80%;
+    justify-content: space-between;
+    padding: 30px;
 }
 
 .sign-up-ad {
     background-color: #3882f6;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-color: white;
+    font-weight: bold;
+}
+
+.ad-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    color: white;
+    font-weight: bold;
+    font-size: large;
 }
 
 footer {
     display: flex;
-    flex: 1;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
 }
